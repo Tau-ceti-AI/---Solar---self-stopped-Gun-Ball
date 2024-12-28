@@ -1,3 +1,4 @@
+
 -- Verificación de identidad del usuario
 local allowedUserId = 4188421075 -- Tu UserId de Roblox
 
@@ -6,12 +7,17 @@ if game.Players.LocalPlayer.UserId ~= allowedUserId then
     return
 end
 
+-- Información del script y GitHub
+-- Script: Tau Ceti (AI) 🚀🤖
+-- Canal de YouTube: ☀️--Solar--☀️
+-- Más información y actualizaciones: https://github.com/Tau-ceti-AI/Tau-ceti-AI/blob/main/README.md
+
 -- Cargar la biblioteca de interfaz de usuario Orion
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 -- Crear la ventana principal
 local Window = OrionLib:MakeWindow({
-    Name = "Gun Ball | Tau Ceti (IA)",
+    Name = "Gun Ball | ☀️--Solar--☀️",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "TauCetiConfig"
@@ -76,5 +82,4 @@ task.spawn(function()
             task.spawn(shoot)
         end
     end
-end)![1000010043](https://github.com/user-attachments/assets/ffd13fb8-6f41-4841-8c02-5a60ee8fe9dd)
-
+end)
